@@ -1,11 +1,16 @@
 @font-face {
     font-family: GameCube;
-    src: url(Assets/Fonts/GameCube.ttf);
+    src: url(../Assets/Fonts/GameCube.ttf);
 }
 
 @font-face {
-    font-family: PS2;
-    src: url(Assets/Fonts/PS2_font.TTF);
+  font-family: PS2;
+  src: url(../Assets/Fonts/PS2_font.ttf);
+}
+
+@font-face {
+  font-family: Wii;
+  src: url(../Assets/Fonts/Wii_font.ttf);
 }
 
 body {
@@ -13,14 +18,6 @@ body {
     margin: 0;
     background: linear-gradient(0deg,rgba(0, 217, 255, 1) 0%, rgba(16, 0, 120, 1) 100%);
     color: white;
-}
-
-h1 {
-    font-family: GameCube;
-}
-
-.heading h1 {
-    text-align: center;
 }
 
 nav ul {
@@ -43,6 +40,7 @@ nav li a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none; /* Removes default link underlines */
+  font-family: Wii;
 }
 
 /* Changes the color of links on hover */
@@ -54,4 +52,61 @@ nav li a:hover {
 nav li a.active {
   background-color: #04AA6D;
   color: white;
+}
+
+.heading {
+    text-align: center;
+    font-family: "GameCube";
+}
+
+.season-preview {
+  border: 5px solid white;
+  border-radius: 15px;
+  margin: auto;
+  width: 90rem;
+  height: 40vh;
+  justify-content: center;
+  display: flex;
+}
+
+.season-preview {
+  font-family: Wii;
+  font-size: 36px;
+
+  display: grid;
+  grid-template-areas: "header header header" 
+                       "mkwii mkdd mk8d"
+                       "cttr dkr gkfr";
+  grid-template-columns: 1fr 3fr;
+  gap: 3px;
+  padding: 5px;
+}
+
+.season-preview div.season-preview-header {
+  grid-area: header;
+  text-align: center;
+}
+
+.season-preview div.mkwii-spotlight {
+  grid-area: mkwii;
+}
+
+.season-preview div.mkdd-spotlight {
+  grid-area: mkdd;
+}
+
+.season-preview div.mk8d-spotlight {
+  grid-area: mk8d;
+}
+
+.season-preview div.cttr-spotlight {
+  grid-area: cttr;
+}
+
+.season-preview div.dkr-spotlight {
+  grid-area: dkr;
+}
+
+.season-preview div.gkfr-spotlight {
+  grid-area: gkfr;
 }
