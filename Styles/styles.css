@@ -1,0 +1,57 @@
+@font-face {
+    font-family: GameCube;
+    src: url(Assets/Fonts/GameCube.ttf);
+}
+
+@font-face {
+    font-family: PS2;
+    src: url(Assets/Fonts/PS2_font.TTF);
+}
+
+body {
+    min-height: 100vh;
+    margin: 0;
+    background: linear-gradient(0deg,rgba(0, 217, 255, 1) 0%, rgba(16, 0, 120, 1) 100%);
+    color: white;
+}
+
+h1 {
+    font-family: GameCube;
+}
+
+.heading h1 {
+    text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #000;
+}
+
+/* Styles the list items and makes them float left (horizontal) */
+nav li {
+  float: left;
+}
+
+/* Styles the links inside the list items */
+nav li a {
+  display: block; /* Makes the entire area of the link clickable */
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none; /* Removes default link underlines */
+}
+
+/* Changes the color of links on hover */
+nav li a:hover {
+  background-color: #111;
+}
+
+/* Adds an active class to highlight the current page */
+nav li a.active {
+  background-color: #04AA6D;
+  color: white;
+}
