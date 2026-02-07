@@ -20,6 +20,10 @@ body {
     color: white;
 }
 
+img {
+  border-radius: 15px;
+}
+
 nav ul {
   list-style-type: none;
   margin: 0;
@@ -63,50 +67,29 @@ nav li a.active {
   border: 5px solid white;
   border-radius: 15px;
   margin: auto;
-  width: 90rem;
-  height: 40vh;
-  justify-content: center;
+  width: 70rem;
+  justify-content: space-between;
   display: flex;
+  flex-direction: column;
 }
 
-.season-preview {
+.season-preview-header {
   font-family: Wii;
-  font-size: 36px;
-
-  display: grid;
-  grid-template-areas: "header header header" 
-                       "mkwii mkdd mk8d"
-                       "cttr dkr gkfr";
-  grid-template-columns: 1fr 3fr;
-  gap: 3px;
-  padding: 5px;
-}
-
-.season-preview div.season-preview-header {
-  grid-area: header;
+  font-size: 32px;
   text-align: center;
 }
 
-.season-preview div.mkwii-spotlight {
-  grid-area: mkwii;
+.season-preview-header h2 {
+  margin-top: -0.1rem;
 }
 
-.season-preview div.mkdd-spotlight {
-  grid-area: mkdd;
+.spotlight-image-container{
+  width: 150px;
+  height: 225px;
 }
 
-.season-preview div.mk8d-spotlight {
-  grid-area: mk8d;
-}
-
-.season-preview div.cttr-spotlight {
-  grid-area: cttr;
-}
-
-.season-preview div.dkr-spotlight {
-  grid-area: dkr;
-}
-
-.season-preview div.gkfr-spotlight {
-  grid-area: gkfr;
+.spotlight-image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
