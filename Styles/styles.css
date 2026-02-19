@@ -58,9 +58,97 @@ nav li a.active {
   color: white;
 }
 
+.home-page-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.sidebar{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #EAF5FE;
+  border: 5px solid #636363;
+  border-radius: 20px;
+  margin-right: 7rem;
+  margin-left: 2rem;
+  margin-top: 2rem;
+  height: 50rem;
+  width: 20rem;
+}
+
+.center-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .heading {
     text-align: center;
     font-family: "GameCube";
+}
+
+.spotlight-event {
+  margin-bottom: 1rem;
+  width: 65rem;
+  height: 30rem;
+  background-color: #EAF5FE;
+  border: 5px solid #636363;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.spotlight-event-time-and-details {
+  width: 64rem;
+  height: 14rem;
+  margin-top: -14.5rem;
+  border-radius: 20px;
+
+  display: flex;
+  flex-direction: row;
+
+  border: 3px solid red;
+}
+
+.spotlight-event-game-cover{
+  width: 134px;
+  height: 201px;
+  margin-left: 0.5rem;
+}
+
+#spotlight-event-game {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+#spotlight-event-emulator {
+  height: 20%;
+  width: 30%;
+  margin-top: -20rem;
+  margin-left: 6.75rem;
+}
+
+.separator {
+  width: 60rem;
+  height: 1px;
+  background-color: #000;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.spotlight-event-outlook {
+  width: 64rem;
+  height: 14rem;
+  margin-bottom: -14.5rem;
+  border-radius: 20px;
+  border: 3px solid red;
 }
 
 .season-preview {
@@ -88,7 +176,7 @@ nav li a.active {
 .spotlight-carousel {
   margin: 100px auto;
   margin-top: -2em;
-  width: 90%;
+  width: 80%;
   border: 5px solid black;
   border-radius: 10px;
   background-color: #000;
