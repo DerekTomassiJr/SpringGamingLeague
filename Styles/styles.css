@@ -101,25 +101,101 @@ nav li a.active {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: row;
+  font-family: "Wii";
+}
+
+.date-component {
+  border-radius: 90px;
+  height: 10rem;
+  width: 5rem;
+  background-color: #636363;
+  border: 5px solid #00D9FF;
+}
+
+.date-component-details {
+  height: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   flex-direction: column;
+  margin-top: 5px;
+}
+
+.date-component-details h2 {
+  margin: 0;
+}
+
+.date-component-separator {
+  background-color: white;
+  height: 1px;
+  width: 4rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  margin-left: 0.5rem;
 }
 
 .spotlight-event-time-and-details {
-  width: 64rem;
-  height: 14rem;
-  margin-top: -14.5rem;
+  width: 25rem;
+  height: 30rem;
   border-radius: 20px;
 
   display: flex;
   flex-direction: row;
-
-  border: 3px solid red;
+  justify-content: center;
+  align-items: center;
 }
 
-.spotlight-event-game-cover{
+.date-column {
+  width: 5rem;
+  height: 30rem;
+  margin-left: -1.2rem;
+  margin-right: 1rem;
+  margin-top: 0.5rem;
+}
+
+.spotlight-event-game-and-details {
+  border-radius: 30px;
+  background-color: white;
+
+  height: 20rem;
+
+  margin-top: 0rem;
+  margin-right: -1rem;
+  margin-left: 1rem;
+}
+
+.spotlight-event-game-cover {
   width: 134px;
   height: 201px;
   margin-left: 0.5rem;
+}
+
+.spotlight-event-game-cover img {
+  border-radius: 15px;
+}
+
+.spotlight-event-game-details img {
+  width: 30px;
+  height: 30px;
+}
+
+.event-game-detail h4 {
+  margin-left: 0.5rem;
+  margin-top: rem;
+}
+
+.event-game-detail {
+  color: black;
+  font-family: "Wii";
+
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  padding: 2px;
+
+  height: 2rem;
 }
 
 #spotlight-event-game {
@@ -136,19 +212,25 @@ nav li a.active {
 }
 
 .separator {
-  width: 60rem;
-  height: 1px;
+  width: 1px;
+  height: 28rem;
   background-color: #000;
-  margin-top: 5px;
-  margin-bottom: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
 .spotlight-event-outlook {
   width: 64rem;
-  height: 14rem;
-  margin-bottom: -14.5rem;
+  height: 30rem;
   border-radius: 20px;
-  border: 3px solid red;
+}
+
+.spotlight-event-outlook-header {
+  color: black;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .season-preview {
