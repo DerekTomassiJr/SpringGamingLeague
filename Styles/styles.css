@@ -58,9 +58,296 @@ nav li a.active {
   color: white;
 }
 
+.home-page-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  color: black;
+  font-family: "Wii";
+  background-color: #EAF5FE;
+  border: 5px solid #636363;
+  border-radius: 20px;
+
+  margin-right: 7rem;
+  margin-left: 2rem;
+  margin-top: 2rem;
+  
+  height: 50rem;
+  width: 20rem;
+}
+
+.group-container {
+  
+  width: 95%;
+  height: 10rem;
+  margin-bottom: 0.5rem;
+
+  display: flex;
+  flex-direction: column;
+
+}
+
+.group-member {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  height: 2rem;
+}
+
+.group-member img {
+  height: 25px;
+  width: 25px;
+}
+
+.center-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .heading {
     text-align: center;
     font-family: "GameCube";
+}
+
+.spotlight-event {
+  margin-bottom: 1rem;
+  width: 65rem;
+  height: 30rem;
+  background-color: #EAF5FE;
+  border: 5px solid #636363;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  font-family: "Wii";
+}
+
+.date-component {
+  border-radius: 90px;
+  height: 10rem;
+  width: 5rem;
+  background-color: #636363;
+  border: 5px solid #00D9FF;
+}
+
+.date-component-details {
+  height: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 5px;
+}
+
+.date-component-details h2 {
+  margin: 0;
+}
+
+.date-component-separator {
+  background-color: white;
+  height: 1px;
+  width: 4rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  margin-left: 0.5rem;
+}
+
+.spotlight-event-time-and-details {
+  width: 25rem;
+  height: 30rem;
+  border-radius: 20px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.date-column {
+  width: 5rem;
+  height: 30rem;
+  margin-left: -1.2rem;
+  margin-right: 1rem;
+  margin-top: 0.5rem;
+}
+
+.spotlight-event-game-and-details {
+  border-radius: 30px;
+  background-color: white;
+
+  height: 20rem;
+
+  margin-top: 0rem;
+  margin-right: -1rem;
+  margin-left: 1rem;
+}
+
+.spotlight-event-game-cover {
+  width: 134px;
+  height: 201px;
+  margin-left: 0.5rem;
+}
+
+.spotlight-event-game-cover img {
+  border-radius: 15px;
+}
+
+.spotlight-event-game-details img {
+  width: 30px;
+  height: 30px;
+}
+
+.event-game-detail h4 {
+  margin-left: 0.5rem;
+  margin-top: rem;
+}
+
+.event-game-detail {
+  color: black;
+  font-family: "Wii";
+
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  padding: 2px;
+
+  height: 2rem;
+}
+
+#spotlight-event-game {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+#spotlight-event-emulator {
+  height: 20%;
+  width: 30%;
+  margin-top: -20rem;
+  margin-left: 6.75rem;
+}
+
+.separator {
+  width: 1px;
+  height: 28rem;
+  background-color: #000;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.spotlight-event-outlook {
+  width: 64rem;
+  height: 30rem;
+  border-radius: 20px;
+}
+
+.spotlight-event-outlook-header {
+  color: black;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 10%;
+}
+
+.spotlight-event-outlook-content {
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 0.1rem;
+  height: 87%;
+}
+
+.spotlight-event-match-card {
+  border: 3px solid #00D9FF;
+  border-radius: 45px;
+  background-color: #636363;
+  color: white;
+
+  height: 10rem;
+  width: 50%;
+
+  margin-right: 0.5rem;
+  margin-left: 0.5rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.spotlight-event-match-card img {
+  height: 50px;
+  width: 50px;
+  
+  margin-top: 0.5rem;
+  margin-bottom: -0.5rem;
+}
+
+.spotlight-event-content-primary-matches { 
+  color: black;
+
+  height: 100%;
+  width: 55%;
+
+  margin-right: 0.1rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.spotlight-event-content-header h2{
+  margin-top: -0.25rem;
+}
+
+.spotlight-event-content-card-row {
+  width: 100%;
+  height: 50%;
+  margin-bottom: 0.1rem;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.spotlight-event-separator {
+  position: absolute;
+  
+  width: 1px;
+  height: 26rem;
+
+  margin-left: 8rem; 
+
+  background-color: #000;
+}
+
+.spotlight-event-content-secondary-matches {
+  color: black;
+  
+  height: 100%;
+  width: 45%;
+
+  margin-left: 0.1rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .season-preview {
@@ -88,7 +375,7 @@ nav li a.active {
 .spotlight-carousel {
   margin: 100px auto;
   margin-top: -2em;
-  width: 90%;
+  width: 80%;
   border: 5px solid black;
   border-radius: 10px;
   background-color: #000;
