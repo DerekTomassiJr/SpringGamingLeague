@@ -1,0 +1,482 @@
+{
+    "game" : "Mario Kart Wii",
+    "events" : [
+        {
+            "type" : "VS Race",
+            "legs" : [{
+                "legType" : "VS Race",
+                "legScores" : [
+                    {
+                        "name" : "Mushroom Cup",
+                        "scores" : [
+                            {
+                                "player" : "Andross",
+                                "group" : "A",
+                                "details" : 1
+                            }, 
+                            {
+                                "player" : "Dairy",
+                                "group" : "B",
+                                "details" : 1
+                            },
+                            {
+                                "player" : "Sousa8697",
+                                "group" : "C",
+                                "details" : 1
+                            },
+                            {
+                                "player" : "Snake King",
+                                "group" : "A",
+                                "details" : 2
+                            }, 
+                            {
+                                "player" : "Minty",
+                                "group" : "B",
+                                "details" : 2
+                            },
+                            {
+                                "player" : "Beckster",
+                                "group" : "C",
+                                "details" : 2
+                            },
+                            {
+                                "player" : "Sway",
+                                "group" : "B",
+                                "details" : 3
+                            },
+                            {
+                                "player" : "hak",
+                                "group" : "C",
+                                "details" : 3
+                            },
+                            {
+                                "player" : "lunar",
+                                "group" : "A",
+                                "details" : -1
+                            }
+                        ]
+                    },
+                    {
+                        "name" : "Flower Cup",
+                        "scores" : [
+                            {
+                                "player" : "Andross",
+                                "group" : "A",
+                                "details" : 1
+                            }, 
+                            {
+                                "player" : "Dairy",
+                                "group" : "B",
+                                "details" : 1
+                            },
+                            {
+                                "player" : "Sousa8697",
+                                "group" : "C",
+                                "details" : 1
+                            },
+                            {
+                                "player" : "Snake King",
+                                "group" : "A",
+                                "details" : 2
+                            }, 
+                            {
+                                "player" : "Minty",
+                                "group" : "B",
+                                "details" : 3
+                            },
+                            {
+                                "player" : "Beckster",
+                                "group" : "C",
+                                "details" : 3
+                            },
+                            {
+                                "player" : "Sway",
+                                "group" : "B",
+                                "details" : 2
+                            },
+                            {
+                                "player" : "hak",
+                                "group" : "C",
+                                "details" : 2
+                            },
+                            {
+                                "player" : "lunar",
+                                "group" : "A",
+                                "details" : -1
+                            }
+                        ]
+                    },
+                    {
+                        "name" : "Star Cup",
+                        "scores" : [
+                            {
+                                "player" : "Andross",
+                                "group" : "A",
+                                "details" : 1
+                            }, 
+                            {
+                                "player" : "Dairy",
+                                "group" : "B",
+                                "details" : 1
+                            },
+                            {
+                                "player" : "Sousa8697",
+                                "group" : "C",
+                                "details" : 1
+                            },
+                            {
+                                "player" : "Snake King",
+                                "group" : "A",
+                                "details" : 2
+                            }, 
+                            {
+                                "player" : "Minty",
+                                "group" : "B",
+                                "details" : 2
+                            },
+                            {
+                                "player" : "Beckster",
+                                "group" : "C",
+                                "details" : 3
+                            },
+                            {
+                                "player" : "Sway",
+                                "group" : "B",
+                                "details" : 3
+                            },
+                            {
+                                "player" : "hak",
+                                "group" : "C",
+                                "details" : 2
+                            },
+                            {
+                                "player" : "lunar",
+                                "group" : "A",
+                                "details" : -1
+                            }
+                        ]
+                    },
+                    {
+                        "name" : "Special Cup",
+                        "scores" : [
+                            {
+                                "player" : "Andross",
+                                "group" : "A",
+                                "details" : 1
+                            }, 
+                            {
+                                "player" : "Dairy",
+                                "group" : "B",
+                                "details" : 2
+                            },
+                            {
+                                "player" : "Sousa8697",
+                                "group" : "C",
+                                "details" : 1
+                            },
+                            {
+                                "player" : "Snake King",
+                                "group" : "A",
+                                "details" : 2
+                            }, 
+                            {
+                                "player" : "Minty",
+                                "group" : "B",
+                                "details" : 1
+                            },
+                            {
+                                "player" : "Beckster",
+                                "group" : "C",
+                                "details" : 2
+                            },
+                            {
+                                "player" : "Sway",
+                                "group" : "B",
+                                "details" : 3
+                            },
+                            {
+                                "player" : "hak",
+                                "group" : "C",
+                                "details" : 3
+                            },
+                            {
+                                "player" : "lunar",
+                                "group" : "A",
+                                "details" : -1
+                            }
+                        ]
+                    }
+                ]
+            }],
+            "scoring" : [10, 9, 8],
+            "lastPlaceMultiplier" : 1.25
+        },
+        {
+            "type" : "Battle Mode",
+            "legs" : [
+                {
+                    "legType" : "Balloon Battle",
+                    "legScores" : [
+                        {
+                            "name" : "Block Plaza",
+                            "scores" : [
+                                {
+                                    "player" : "Sway",
+                                    "group" : "A",
+                                    "details" : 5
+                                }, 
+                                {
+                                    "player" : "Sousa8697",
+                                    "group" : "A",
+                                    "details" : 4
+                                },
+                                {
+                                    "player" : "Snake King",
+                                    "group" : "B",
+                                    "details" : 1
+                                },
+                                {
+                                    "player" : "Minty",
+                                    "group" : "B",
+                                    "details" : 6
+                                }, 
+                                {
+                                    "player" : "hak",
+                                    "group" : "C",
+                                    "details" : 2
+                                },
+                                {
+                                    "player" : "Andross",
+                                    "group" : "C",
+                                    "details" : 6
+                                },
+                                {
+                                    "player" : "Dairy",
+                                    "group" : "D",
+                                    "details" : 0
+                                },
+                                {
+                                    "player" : "Beckster",
+                                    "group" : "D",
+                                    "details" : 0
+                                },
+                                {
+                                    "player" : "lunar",
+                                    "group" : "E",
+                                    "details" : -1
+                                }
+                            ]
+                        },
+                        {
+                            "name" : "Delfino Pier",
+                            "scores" : [
+                                {
+                                    "player" : "Sway",
+                                    "group" : "A",
+                                    "details" : 5
+                                }, 
+                                {
+                                    "player" : "Sousa8697",
+                                    "group" : "A",
+                                    "details" : 3
+                                },
+                                {
+                                    "player" : "Snake King",
+                                    "group" : "B",
+                                    "details" : 1
+                                },
+                                {
+                                    "player" : "Minty",
+                                    "group" : "B",
+                                    "details" : 9
+                                }, 
+                                {
+                                    "player" : "hak",
+                                    "group" : "C",
+                                    "details" : 3
+                                },
+                                {
+                                    "player" : "Andross",
+                                    "group" : "C",
+                                    "details" : 6
+                                },
+                                {
+                                    "player" : "Dairy",
+                                    "group" : "D",
+                                    "details" : 2
+                                },
+                                {
+                                    "player" : "Beckster",
+                                    "group" : "D",
+                                    "details" : 1
+                                },
+                                {
+                                    "player" : "lunar",
+                                    "group" : "E",
+                                    "details" : -1
+                                }
+                            ]
+                        },
+                        {
+                            "name" : "Funky Stadium",
+                            "scores" : [
+                                {
+                                    "player" : "Sway",
+                                    "group" : "A",
+                                    "details" : 3
+                                }, 
+                                {
+                                    "player" : "Sousa8697",
+                                    "group" : "A",
+                                    "details" : 1
+                                },
+                                {
+                                    "player" : "Snake King",
+                                    "group" : "B",
+                                    "details" : 7
+                                },
+                                {
+                                    "player" : "Minty",
+                                    "group" : "B",
+                                    "details" : 6
+                                }, 
+                                {
+                                    "player" : "hak",
+                                    "group" : "C",
+                                    "details" : 2
+                                },
+                                {
+                                    "player" : "Andross",
+                                    "group" : "C",
+                                    "details" : 5
+                                },
+                                {
+                                    "player" : "Dairy",
+                                    "group" : "D",
+                                    "details" : 6
+                                },
+                                {
+                                    "player" : "Beckster",
+                                    "group" : "D",
+                                    "details" : 2
+                                },
+                                {
+                                    "player" : "lunar",
+                                    "group" : "E",
+                                    "details" : -1
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "legType" : "Coin Runners",
+                    "legScores" : [
+                        {
+                            "name" : "Chain Chomp Wheel",
+                            "scores" : [
+                                {
+                                    "player" : "Sway",
+                                    "group" : "A",
+                                    "details" : 5
+                                }, 
+                                {
+                                    "player" : "Sousa8697",
+                                    "group" : "A",
+                                    "details" : 3
+                                },
+                                {
+                                    "player" : "Snake King",
+                                    "group" : "B",
+                                    "details" : 2
+                                },
+                                {
+                                    "player" : "Minty",
+                                    "group" : "B",
+                                    "details" : 3
+                                }, 
+                                {
+                                    "player" : "hak",
+                                    "group" : "C",
+                                    "details" : 1
+                                },
+                                {
+                                    "player" : "Andross",
+                                    "group" : "C",
+                                    "details" : 13
+                                },
+                                {
+                                    "player" : "Dairy",
+                                    "group" : "D",
+                                    "details" : 11
+                                },
+                                {
+                                    "player" : "Beckster",
+                                    "group" : "D",
+                                    "details" : 1
+                                },
+                                {
+                                    "player" : "lunar",
+                                    "group" : "E",
+                                    "details" : -1
+                                }
+                            ]
+                        },
+                        {
+                            "name" : "Thwomp Desert",
+                            "scores" : [
+                                {
+                                    "player" : "Sway",
+                                    "group" : "A",
+                                    "details" : 2
+                                }, 
+                                {
+                                    "player" : "Sousa8697",
+                                    "group" : "A",
+                                    "details" : 2
+                                },
+                                {
+                                    "player" : "Snake King",
+                                    "group" : "B",
+                                    "details" : 2
+                                },
+                                {
+                                    "player" : "Minty",
+                                    "group" : "B",
+                                    "details" : 9
+                                }, 
+                                {
+                                    "player" : "hak",
+                                    "group" : "C",
+                                    "details" : 2
+                                },
+                                {
+                                    "player" : "Andross",
+                                    "group" : "C",
+                                    "details" : 15
+                                },
+                                {
+                                    "player" : "Dairy",
+                                    "group" : "D",
+                                    "details" : 7
+                                },
+                                {
+                                    "player" : "Beckster",
+                                    "group" : "D",
+                                    "details" : 1
+                                },
+                                {
+                                    "player" : "lunar",
+                                    "group" : "E",
+                                    "details" : -1
+                                }
+                            ]
+                        }
+                    ],
+                    "scoring" : [5,4,3,2],
+                    "lastPlaceMultipler" : null
+                }
+            ]
+        }
+    ]
+}
