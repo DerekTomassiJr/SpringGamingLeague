@@ -198,8 +198,8 @@ table.main-standings-container {
 
 .spotlight-event {
   margin-bottom: 1rem;
-  width: 65rem;
-  height: 30rem;
+  width: 70rem;
+  height: 35rem;
   background-color: #eaf5fe;
   border: 5px solid #636363;
   border-radius: 20px;
@@ -409,7 +409,7 @@ table.main-standings-container {
   width: 1px;
   height: 26rem;
 
-  margin-left: 8rem;
+  margin-left: 5rem;
 
   background-color: #000;
 }
