@@ -1,6 +1,6 @@
 @font-face {
-  font-family: GameCube;
-  src: url(../Assets/Fonts/GameCube.ttf);
+    font-family: GameCube;
+    src: url(../Assets/Fonts/GameCube.ttf);
 }
 
 @font-face {
@@ -14,14 +14,10 @@
 }
 
 body {
-  min-height: 100vh;
-  margin: 0;
-  background: linear-gradient(
-    0deg,
-    rgba(0, 217, 255, 1) 0%,
-    rgba(16, 0, 120, 1) 100%
-  );
-  color: white;
+    min-height: 100vh;
+    margin: 0;
+    background: linear-gradient(0deg,rgba(0, 217, 255, 1) 0%, rgba(16, 0, 120, 1) 100%);
+    color: white;
 }
 
 img {
@@ -58,19 +54,13 @@ nav li a:hover {
 
 /* Adds an active class to highlight the current page */
 nav li a.active {
-  background-color: #04aa6d;
+  background-color: #04AA6D;
   color: white;
 }
 
 .home-page-container {
   display: flex;
   flex-direction: row;
-  justify-content: center;
-}
-
-.standings-page-container {
-  display: flex;
-  justify-content: center;
 }
 
 .sidebar {
@@ -80,102 +70,34 @@ nav li a.active {
 
   color: black;
   font-family: "Wii";
-  background-color: #eaf5fe;
-  border: 5px solid #636363;
-  border-radius: 20px;
-
-  margin-right: 2rem;
-  margin-left: 2rem;
-  margin-top: 2rem;
-
-  height: 50rem;
-  width: 20rem;
-}
-
-.sidebar > table {
-  border-collapse: separate;
-  border-spacing: 0px 15px;
-  padding: 0px 15px;
-  text-align: center;
-}
-
-.sidebar tr th {
-  border-right: 0.25rem solid #000;
-  padding-right: 1rem;
-  padding-left: 0.25rem;
-}
-.sidebar tr td {
-  padding-bottom: 1.5rem;
-  padding-right: 0.5rem;
-  border-top: 0.2rem solid #000;
-}
-
-.sidebar tr th:last-child {
-  border-right: none;
-  padding-left: 0.25rem;
-}
-
-.main-standings-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-
-  color: black;
-  font-family: "Wii";
-  background-color: #eaf5fe;
+  background-color: #EAF5FE;
   border: 5px solid #636363;
   border-radius: 20px;
 
   margin-right: 7rem;
-  margin-left: 7rem;
+  margin-left: 2rem;
   margin-top: 2rem;
-
+  
   height: 50rem;
-  width: fit-content;
-}
-
-table.main-standings-container {
-  border-collapse: separate;
-  border-spacing: 0px 15px;
-  padding: 15px 15px;
-}
-
-.main-standings-container tr {
-  align-items: center;
-  align-content: center;
-  text-align: center;
-}
-
-.main-standings-container tr th {
-  border-right: 0.25rem solid #000;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  text-align: center;
-}
-
-.main-standings-container tr td {
-  border-top: 0.15rem solid #000;
-  padding: 15px 0px 10px 0px;
-}
-
-.main-standings-container tr th:last-child {
-  border-right: none;
+  width: 20rem;
 }
 
 .group-container {
+  
   width: 95%;
   height: 10rem;
   margin-bottom: 0.5rem;
 
   display: flex;
   flex-direction: column;
+
 }
 
 .group-member {
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 0.5rem;
+
   height: 2rem;
 }
 
@@ -192,15 +114,15 @@ table.main-standings-container {
 }
 
 .heading {
-  text-align: center;
-  font-family: "GameCube";
+    text-align: center;
+    font-family: "GameCube";
 }
 
 .spotlight-event {
   margin-bottom: 1rem;
   width: 70rem;
   height: 35rem;
-  background-color: #eaf5fe;
+  background-color: #EAF5FE;
   border: 5px solid #636363;
   border-radius: 20px;
   display: flex;
@@ -215,7 +137,7 @@ table.main-standings-container {
   height: 10rem;
   width: 5rem;
   background-color: #636363;
-  border: 5px solid #00d9ff;
+  border: 5px solid #00D9FF;
 }
 
 .date-component-details {
@@ -341,6 +263,7 @@ table.main-standings-container {
 }
 
 .spotlight-event-outlook-content {
+
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -351,7 +274,7 @@ table.main-standings-container {
 }
 
 .spotlight-event-match-card {
-  border: 3px solid #00d9ff;
+  border: 3px solid #00D9FF;
   border-radius: 45px;
   background-color: #636363;
   color: white;
@@ -370,12 +293,12 @@ table.main-standings-container {
 .spotlight-event-match-card img {
   height: 50px;
   width: 50px;
-
+  
   margin-top: 0.5rem;
   margin-bottom: -0.5rem;
 }
 
-.spotlight-event-content-primary-matches {
+.spotlight-event-content-primary-matches { 
   color: black;
 
   height: 100%;
@@ -388,7 +311,7 @@ table.main-standings-container {
   align-items: center;
 }
 
-.spotlight-event-content-header h2 {
+.spotlight-event-content-header h2{
   margin-top: -0.25rem;
 }
 
@@ -405,18 +328,18 @@ table.main-standings-container {
 
 .spotlight-event-separator {
   position: absolute;
-
+  
   width: 1px;
   height: 26rem;
 
-  margin-left: 5rem;
+  margin-left: 5rem; 
 
   background-color: #000;
 }
 
 .spotlight-event-content-secondary-matches {
   color: black;
-
+  
   height: 100%;
   width: 45%;
 
@@ -456,9 +379,7 @@ table.main-standings-container {
   border: 5px solid black;
   border-radius: 10px;
   background-color: #000;
-  box-shadow:
-    0 4px 8px 0 rgba(0, 0, 0, 0.2),
-    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   display: flex;
   overflow-x: auto;
 }
@@ -476,7 +397,7 @@ table.main-standings-container {
   padding-right: 1em;
 }
 
-.spotlight-image-container {
+.spotlight-image-container{
   flex: 0 0 10em;
   width: 150px;
   height: 225px;
@@ -489,10 +410,6 @@ table.main-standings-container {
 }
 
 @keyframes spin {
-  from {
-    translate: 0;
-  }
-  to {
-    translate: -100%;
-  }
+  from {translate: 0;}
+  to {translate: -100%;}
 }
